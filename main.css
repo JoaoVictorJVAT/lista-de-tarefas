@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #E7E7E7;
+    padding-top: 100px;
+}
+
+header{
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    padding: 24px 0;
+    text-align: center;
+}
+
+input,button{
+    padding: 8px;
+    font-size: 26px;
+    border: 1px solid #979797 ;
+}
+
+button{
+    background-color:#d3d3d3 ;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+}
+
+ul{
+    list-style: disc;
+}
+
+ul li{
+    text-align: center;
+}
+
+.completa {
+    text-decoration: line-through;
+}
+
